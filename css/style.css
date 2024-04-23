@@ -1,0 +1,198 @@
+.usernamefield::placeholder {
+  padding: 20px;
+  color: rgb(147, 146, 146);
+  font-size: 20px;
+}
+.passwordfield::placeholder {
+  padding: 20px;
+  color: rgb(173, 171, 171);
+  font-size: 20px;
+}
+.usernamefield {
+  width: 300px;
+  border-radius: 30px;
+  height: 50px;
+}
+.usernamefield:focus {
+  outline: none;
+}
+.passwordfield:focus {
+  outline: none;
+}
+.passwordfield {
+  width: 300px;
+  border-radius: 30px;
+  height: 50px;
+}
+.login-div {
+  margin-top: 20px;
+}
+.cars-image {
+  width: 300px;
+  height: 250px;
+}
+.login-section {
+  display: flex;
+  gap: 30px;
+}
+.main {
+  background-color: red;
+  border-radius: 30px;
+  padding: 30px;
+  padding-bottom: 60px;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-login {
+  background-color: rgb(8, 236, 8);
+  font-size: 30px;
+  color: white;
+  border-radius: 30px;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
+.btn-div {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+
+  justify-content: center;
+}
+.class-h2 {
+  padding-top: 40px;
+  font-size: 30px;
+  color: red;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-align: center;
+}
+.error-text {
+  color: white;
+  font-size: 18px;
+}
+.icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+.login-div {
+  position: relative;
+}
+.new-btn {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 15px;
+  cursor: pointer;
+}
+.NewAcc {
+  display: flex;
+  justify-content: center;
+}
+
+.newDiv {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: aqua;
+  display: none;
+
+  width: 100%;
+  height: 100%;
+}
+.newDiv.active {
+  display: block;
+}
+.close {
+  font-size: 35px;
+  position: fixed;
+  color: black;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+}
+.div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formEl-2 {
+  background-color: blueviolet;
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input1 {
+  width: 110px;
+  height: 50px;
+  border-radius: 30px;
+}
+.input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.password-flex {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.forma {
+  max-width: 400px;
+  width: 100%;
+}
+.phone-flex {
+  display: flex;
+}
+::placeholder {
+  padding: 30px;
+}
+.genderinput {
+  font-size: 30px;
+  color: black;
+}
+.div-center {
+  text-align: center;
+}
+#gender2 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.Sign {
+  background-color: chartreuse;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+:focus {
+  outline: none;
+}
+.phone {
+  width: 100%;
+  border-radius: 30px;
+}

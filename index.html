@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cars</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsives.css" />
+    <link rel="icon" href="img/cars.png" />
+  </head>
+  <body>
+    <main>
+      <section class="login-s">
+        <h2 class="class-h2">Login to access the page</h2>
+        <div class="login-section">
+          <div class="div">
+            <img class="cars-image" src="img/cars.png" alt="" />
+          </div>
+          <div class="main">
+            <form action="" class="form-el" id="login" method="get">
+              <div class="login-div">
+                <input
+                  class="usernamefield"
+                  type="text"
+                  name="username"
+                  id="usernamefield"
+                  placeholder="email"
+                />
+
+                <p class="error-text" id="error-username"></p>
+              </div>
+              <div class="login-div">
+                <input
+                  class="passwordfield"
+                  type="password"
+                  name="passw"
+                  id="passwordfield"
+                  placeholder="password"
+                />
+                <i class="fa-solid fa-eye-slash icon" id="icon"></i>
+              </div>
+              <p class="error-text" id="error-passw"></p>
+              <div class="btn-div">
+                <button type="submit" class="btn-login">Log In</button>
+              </div>
+            </form>
+            <div class="NewAcc">
+              <button id="newBtn" class="new-btn" type="submit">
+                Create New Account
+              </button>
+            </div>
+            <div class="newDiv" id="newDiv">
+              <i class="fa-solid fa-circle-xmark close" id="close"></i>
+
+              <div class="formEl-2">
+                <form action="" id="mainForm" class="forma">
+                  <div>
+                    <label for="username"></label>
+                    <input
+                      class="input"
+                      type="text"
+                      name="username"
+                      id="usernamef"
+                      placeholder="username"
+                    />
+                  </div>
+                  <div class="password-flex">
+                    <div>
+                      <label for="password"></label>
+                      <input
+                        class="input"
+                        type="password"
+                        name="password"
+                        id="passwfield"
+                        placeholder="password"
+                      />
+                    </div>
+                    <div>
+                      <label for="password2"></label>
+                      <input
+                        class="input"
+                        type="password"
+                        name="password2"
+                        id="passwfield2"
+                        placeholder="Repeat password"
+                      />
+                    </div>
+                  </div>
+                  <div class="phone-flex">
+                    <select class="input1" name="plan" id="plan">
+                      <option value="none" selected disabled hidden>
+                        Countrycode
+                      </option>
+                      <option value="georgia">+995</option>
+                      <option value="Azerbaijan">+994</option>
+                      <option value="Nepal">+977</option>
+                      <option value="Ukraine">+380</option>
+                      <option value="India">+91</option>
+                      <option value="China">+86</option>
+                    </select>
+                    <input
+                      class="phone"
+                      type="tel"
+                      name="phone"
+                      id="phone"
+                      placeholder="phone"
+                    />
+                  </div>
+                  <div class="div-center">
+                    <input type="radio" name="gender" id="gender1" />
+                    <label class="genderinput" for="gender1">Male</label>
+                    <input type="radio" name="gender" id="gender2" />
+                    <label class="genderinput" for="gender2">Female</label>
+                  </div>
+                  <div class="div-center">
+                    <input type="checkbox" name="agree" id="check" />
+                    <label class="genderinput" for="agree">I Agree</label>
+                  </div>
+                  <div class="button">
+                    <button class="Sign" type="submit">Sign Up</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>

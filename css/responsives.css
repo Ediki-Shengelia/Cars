@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .login-section {
+    flex-direction: column;
+    width: 450px;
+  }
+  .usernamefield {
+    width: 100%;
+  }
+  .passwordfield {
+    width: 100%;
+  }
+  .div {
+    margin: 0 auto;
+  }
+  /* ! */
+  .password-flex{
+    flex-direction: column;
+  }
+  .formEL-2{
+    width: 100%;
+
+  }
+  .forma{
+    width: 100%;
+  }
+   
+}
+@media (max-width: 480px) {
+  .login-section {
+    width: 100%;
+  }
+  .form-el{
+    width: 100%;
+  }
+}

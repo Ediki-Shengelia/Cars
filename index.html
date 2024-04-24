@@ -65,10 +65,11 @@
                     <input
                       class="input"
                       type="text"
-                      name="username"
+                      name="usernameo"
                       id="usernamef"
                       placeholder="username"
                     />
+                    <p class="error-text2" id="error-usernameo"></p>
                   </div>
                   <div class="password-flex">
                     <div>
@@ -80,7 +81,10 @@
                         id="passwfield"
                         placeholder="password"
                       />
+                      <p class="error-text2" id="error-password"></p>
+                  
                     </div>
+                    
                     <div>
                       <label for="password2"></label>
                       <input
@@ -90,6 +94,7 @@
                         id="passwfield2"
                         placeholder="Repeat password"
                       />
+                      <p class="error-text2" id="error-password2"></p>
                     </div>
                   </div>
                   <div class="phone-flex">
@@ -112,15 +117,28 @@
                       placeholder="phone"
                     />
                   </div>
+                  <p class="error-text2" id="error-phone"></p>
                   <div class="div-center">
-                    <input type="radio" name="gender" id="gender1" />
-                    <label class="genderinput" for="gender1">Male</label>
-                    <input type="radio" name="gender" id="gender2" />
+                    <input
+                      type="radio"
+                      name="gender2"
+                      id="gender2"
+                      class="genderinput"
+                    />
+                    <label class="genderinput" for="gender2">Male</label>
+                    <input
+                      type="radio"
+                      name="gender2"
+                      id="gender2"
+                      class="genderinput"
+                    />
                     <label class="genderinput" for="gender2">Female</label>
+                    <p class="error-text2" id="error-gender2"></p>
                   </div>
                   <div class="div-center">
                     <input type="checkbox" name="agree" id="check" />
                     <label class="genderinput" for="agree">I Agree</label>
+                    <p class="error-text2" id="error-agree"></p>
                   </div>
                   <div class="button">
                     <button class="Sign" type="submit">Sign Up</button>
@@ -132,6 +150,7 @@
         </div>
       </section>
     </main>
-    <script src="js/login.js"></script>
+
+    <script type="module" src="js/login.js"></script>
   </body>
 </html>

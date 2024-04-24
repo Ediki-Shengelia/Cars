@@ -26,10 +26,6 @@ formEl.addEventListener("submit", function (e) {
       errorElement.innerText = errors[index];
     }
   }
-
-  // !  if (Object.keys(errors).length === 0) {
-  //     // !vwert class liast adds
-  //   }
 });
 
 let password = document.getElementById("passwordfield");
@@ -106,3 +102,24 @@ function closeclick() {
   newDiv.classList.remove("active");
 }
 
+import { forma } from "./register.js";
+
+let formElement = document.getElementById("mainForm");
+formElement.addEventListener("submit", forma);
+
+import { UsernameRegex } from "./register.js";
+let registerUsername = document.getElementById("usernamef");
+registerUsername.addEventListener("keyup", UsernameRegex);
+
+import { PasswordRegex } from "./register.js";
+let PasswordR = document.getElementById("passwfield");
+PasswordR.addEventListener("keyup", PasswordRegex);
+
+import { passRegex } from "./register.js";
+let passwordRegex2 = document.getElementById("passwfield2");
+passwordRegex2.addEventListener("keyup", passRegex);
+
+
+import {phoneR} from './register.js'
+let phoneRegex = document.getElementById("phone");
+phoneRegex.addEventListener('keyup',phoneR)

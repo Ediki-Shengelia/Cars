@@ -51,6 +51,10 @@ export function forma(e) {
       errorElement.textContent = errors[key];
     }
   }
+  if(Object.keys(errors).length===0){
+    
+    window.location.href='main.html'
+  }
 }
 
 export function UsernameRegex() {

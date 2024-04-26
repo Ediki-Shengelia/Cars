@@ -26,6 +26,9 @@ formEl.addEventListener("submit", function (e) {
       errorElement.innerText = errors[index];
     }
   }
+  if (Object.keys(errors).length === 0) {
+    window.location.href = "main.html";
+  }
 });
 
 let password = document.getElementById("passwordfield");
@@ -119,7 +122,6 @@ import { passRegex } from "./register.js";
 let passwordRegex2 = document.getElementById("passwfield2");
 passwordRegex2.addEventListener("keyup", passRegex);
 
-
-import {phoneR} from './register.js'
+import { phoneR } from "./register.js";
 let phoneRegex = document.getElementById("phone");
-phoneRegex.addEventListener('keyup',phoneR)
+phoneRegex.addEventListener("keyup", phoneR);

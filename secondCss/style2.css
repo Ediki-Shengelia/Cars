@@ -55,3 +55,16 @@
 .dot-child:hover{
     background-color: aqua;
 }
+.user-ul-list li {
+  background-color: red;
+  margin-top: 15px;
+  max-width: 250px;
+  border-radius: 10px;
+}
+.user-ul-list li:nth-child(2n) {
+  background-color: aqua;
+}
+.second-section{
+  width: 90%;
+  margin: 0 auto;
+}

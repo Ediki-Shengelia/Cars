@@ -52,19 +52,49 @@
   margin: 8px;
   cursor: pointer;
 }
-.dot-child:hover{
-    background-color: aqua;
+.dot-child:hover {
+  background-color: aqua;
 }
+/* ! */
 .user-ul-list li {
   background-color: red;
   margin-top: 15px;
-  max-width: 250px;
+
   border-radius: 10px;
+  padding: 35px;
 }
 .user-ul-list li:nth-child(2n) {
   background-color: aqua;
+  padding: 35px;
 }
-.second-section{
+
+.img-url {
+  width: 100%;
+  object-fit: contain;
+}
+.car-h2 {
+  font-size: 35px;
+  text-shadow: 3px 3px 10px blue;
+  font-weight: bold;
+}
+.first {
+  display: flex;
+  justify-content: center;
+}
+.flex {
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.second {
+  display: flex;
+  justify-content: center;
+}
+.second-section{
+  margin-top: 40px;
+}
+.input2{
+  background-color: yellow;
+  margin-top: 20px;
 }

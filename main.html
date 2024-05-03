@@ -9,9 +9,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <link rel="stylesheet" href="css/reset.css" />
-    
+
     <link rel="stylesheet" href="secondCss/style2.css" />
-    <link rel="stylesheet" href="css/responsives.css">
+    <link rel="stylesheet" href="css/responsives.css" />
   </head>
   <body>
     <main>
@@ -26,14 +26,23 @@
           <div class="slider-content" id="slider-content"></div>
         </div>
       </section>
+
       <section class="second-section">
+        <div class="first">
+          <h2 class="car-h2">Cars Filter</h2>
+        </div>
+       
         <div class="filter-container">
+          <div class="second">
           <input type="text" name="filter" id="input-filter" class="input2" />
+        </div>
+          <div class="flex">
           <ul class="user-ul-list" id="list"></ul>
+        </div>
         </div>
       </section>
     </main>
-    
+
     <script src="node_modules/axios/dist/axios.min.js"></script>
     <script src="slider.js"></script>
     <script src="filter.js"></script>

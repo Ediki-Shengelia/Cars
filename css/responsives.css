@@ -40,4 +40,10 @@
     height: 30px;
     font-size: 20px;
   }
+  .user-ul-list li{
+    padding: 12px;
+  }
+  .user-ul-list li:nth-child(2n){
+    padding: 12px;
+  }
 }

@@ -98,3 +98,12 @@
   background-color: yellow;
   margin-top: 20px;
 }
+
+
+.text{
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 3px 3px 2px purple;
+  line-height: 3rem;
+}

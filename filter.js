@@ -12,15 +12,13 @@ async function fetchData() {
     let UserData = response.data.data;
     console.log("UserData:", UserData); // Log UserData to inspect its structure
 
-    let list = document.getElementById("list"); // Assuming you have a <ul> or <ol> element with id "list" in your HTML
-    let array = [];
-
     UserData.forEach((element) => {
       let img = document.createElement("img");
       img.setAttribute("src", element.imgUrl);
       img.classList.add("img-url");
       let li = document.createElement("li");
-      // li.innerText = `${element.title} - ${element.Location}`;
+      li.innerText = `${element.title} `;
+      li.classList.add('text')
       li.appendChild(img);
 
       array.push(li);

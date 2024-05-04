@@ -16,34 +16,36 @@
     margin: 0 auto;
   }
   /* ! */
-  .password-flex{
+  .password-flex {
     flex-direction: column;
   }
-  .formEL-2{
-    width: 100%;
-
-  }
-  .forma{
+  .formEL-2 {
     width: 100%;
   }
-   
+  .forma {
+    width: 100%;
+  }
 }
 @media (max-width: 480px) {
   .login-section {
     width: 100%;
   }
-  .form-el{
+  .form-el {
     width: 100%;
   }
-  .arrow{
+  .arrow {
     width: 30px;
     height: 30px;
     font-size: 20px;
   }
-  .user-ul-list li{
+  .user-ul-list li {
     padding: 12px;
   }
-  .user-ul-list li:nth-child(2n){
+  .user-ul-list li:nth-child(2n) {
     padding: 12px;
+  }
+
+  .container-accordion.active .acc-descr{
+    height: 140px;
   }
 }

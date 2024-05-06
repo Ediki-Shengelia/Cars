@@ -140,4 +140,7 @@
   .container{
     align-items: center;
   }
+  #home{
+    padding: 0;
+  }
 }

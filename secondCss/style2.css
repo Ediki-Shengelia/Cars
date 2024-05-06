@@ -176,58 +176,170 @@
   max-width: 300px;
   width: 100%;
 }
-.second-footer-div{
+.second-footer-div {
   max-width: 300px;
   width: 100%;
-  
 }
-.second-footer-div h2{
+.second-footer-div h2 {
   font-size: 35px;
   color: white;
   margin-bottom: 15px;
 }
-.second-footer-div p{
+.second-footer-div p {
   font-size: 20px;
   color: white;
 }
-.footer{
+.footer {
   margin-top: 30px;
   padding: 30px;
   background-color: black;
- 
 }
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
 }
 
-.youtube{
+.youtube {
   color: red;
   font-size: 30px;
- 
 }
-.class{
+.class {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.instagram{
+.instagram {
   font-size: 30px;
   color: purple;
 }
-.facebook{
+.facebook {
   font-size: 30px;
   color: blue;
 }
-.follow{
+.follow {
   font-size: 35px;
   line-height: 45px;
   color: white;
 }
 .facebook:hover,
 .youtube:hover,
-.instagram:hover{
+.instagram:hover {
   color: green;
+}
+#home{
+  padding: 50px;
+}
+.image{
+  width: 60px;
+  height: 60px;
+}
+.nav-ul{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  font-size: 25px;
+}
+.header-bg {
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Position at the top of the viewport */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensures the header is above other content */
+  /* Add any additional styling you need */
 
+}
+
+.header {
+  display: flex; /* Flexbox layout for header content */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Padding for header content */
+  background-color: burlywood;
+  /* Add any additional styling you need */
+}
+.nav-a-item{
+  position: relative;
+  color: red;
+}
+.nav-a-item::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: blue;
+  transition: all 2s;
+}
+.nav-a-item:hover::after{
+  width: 100%;
+}
+
+/* ! */
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu.open {
+  display: block;
+}
+
+.burger-bar {
+  display: block; /* Make sure the burger bar is visible */
+  position: relative;
+
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger div {
+  background-color: #333;
+  height: 3px;
+  margin: 5px 0;
+  transition: transform 0.4s, opacity 0.4s; /* Add opacity transition */
+}
+
+/* Rotate top and bottom lines to form an X */
+#burger.open .burger-top {
+  transform: translateY(8px) rotate(45deg);
+}
+
+#burger.open .burger-bottom {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+#burger.open .burger-filling {
+  opacity: 0; /* Hide the middle line when menu is open */
+}
+
+/* Styling the navigation menu */
+.nav-menu {
+  display: none; /* Initially hide the navigation menu */
+}
+
+.nav-menu.open {
+  display: block; /* Show the navigation menu when open */
+}
+
+.nav-ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.nav-a-item {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.nav-a-item:hover {
+  background-color: #f0f0f0;
 }

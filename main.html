@@ -14,8 +14,30 @@
     <link rel="stylesheet" href="css/responsives.css" />
   </head>
   <body>
+       
+    <header class="header-bg">
+      <div class="header">
+        <img class="image" src="img/cars.png" alt="">
+        <nav class="nav-menu">
+          <ul class="nav-ul">
+            <li><a  class="nav-a-item"  href="#home">home</a></li>
+            <li><a  class="nav-a-item" href="#second">Cars</a></li>
+            <li><a  class="nav-a-item" href="#third">Motorcycle</a></li>
+            <li><a class="nav-a-item" href="#footer">footer</a></li>
+          </ul>
+        </nav>
+        <div class="burger-bar">
+          <div class="burger" id="burger">
+            <div class="burger-top"></div>
+            <div class="burger-filling"></div>
+            <div class="burger-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <main>
-      <section>
+      <section id="home">
         <div class="slider-wraper">
           <div class="arrow arrow-left">
             <i class="fa-solid fa-arrow-left" id="arrow-left"></i>
@@ -27,7 +49,7 @@
         </div>
       </section>
 
-      <section class="second-section">
+      <section class="second-section" id="second">
         <div class="first">
           <h2 class="car-h2">Cars Filter</h2>
         </div>
@@ -41,7 +63,7 @@
           </div>
         </div>
       </section>
-      <section class="third-section">
+      <section class="third-section" id="third">
         <div class="accordion-block">
           <h2 class="moto-h2">Motorcycle</h2>
           <div class="container-accordion">
@@ -87,46 +109,47 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
-      <div class="first-footer-div">
-        <h2 class="first-footer">About us</h2>
-        <p class="footer-p">
-          We have the confidence to provide the best service for you, with the
-          support of Professional and Certified HR that we currently have and
-          the high-quality materials we use and structured work techniques, we
-          will be able to realize timely completion of work.
-        </p>
-      </div>
-      <div class="second-footer-div">
-        <h2>office</h2>
-        <p>18 Office Park Building 21th Floor Unit C.</p>
-        <p>Jl. TB Simatupang Kav. 18, Jakarta Selatan ,12520</p>
-      </div>
-      <div>
-        <h2 class="follow">Follow</h2>
-        <div>
-          <a class="facebook" href="https://www.facebook.com/"
-            ><i class="fa-brands fa-facebook"></i>facebook</a
-          >
+        <div class="first-footer-div">
+          <h2 class="first-footer">About us</h2>
+          <p class="footer-p">
+            We have the confidence to provide the best service for you, with the
+            support of Professional and Certified HR that we currently have and
+            the high-quality materials we use and structured work techniques, we
+            will be able to realize timely completion of work.
+          </p>
         </div>
-        <div class="class">
-          <a class="youtube"  href="https://www.youtube.com/"
-            ><i class="fa-brands fa-youtube"></i>youtube</a
-          >
+        <div class="second-footer-div">
+          <h2>office</h2>
+          <p>18 Office Park Building 21th Floor Unit C.</p>
+          <p>Jl. TB Simatupang Kav. 18, Jakarta Selatan ,12520</p>
         </div>
         <div>
-          <a class="instagram"  href="https://www.instagram.com/"
-            ><i class="fa-brands fa-instagram"></i
-          >instagram</a>
+          <h2 class="follow">Follow</h2>
+          <div>
+            <a class="facebook" href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i>facebook</a
+            >
+          </div>
+          <div class="class">
+            <a class="youtube" href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube"></i>youtube</a
+            >
+          </div>
+          <div>
+            <a class="instagram" href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i>instagram</a
+            >
+          </div>
         </div>
       </div>
-    </div>
     </footer>
 
     <script src="node_modules/axios/dist/axios.min.js"></script>
     <script src="slider.js"></script>
     <script src="filter.js"></script>
     <script src="accordion.js"></script>
+    <script src="bar.js"></script>
   </body>
 </html>

@@ -78,7 +78,16 @@
   .footer{
     padding: 30px;
   }
+  .burger-bar{
+    display: block;
+  }
   
+  /* ! */
+  .nav-ul{
+    flex-direction: column;
+    width: 100%;
+    
+  }
 }
 @media (max-width: 480px) {
   .login-section {

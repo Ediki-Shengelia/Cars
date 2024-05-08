@@ -402,6 +402,7 @@
   height: 50px;
   font-size: 30px;
   border-radius: 25px;
+  cursor: pointer;
 }
 #phone{
   background-color: aquamarine;
